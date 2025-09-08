@@ -20,7 +20,17 @@
   const results = document.querySelectorAll('.voting-result');
 
   button.addEventListener('click', () => {
-    results.forEach((result) => {
+    results.forEach((result) => {/* margin/padding. - top, right, bottom, left */
+.lion{
+  background: pink;
+  padding-block: 20px;
+  padding-block-start: 20px;
+  padding-block-end: 20px;
+  margin-inline: 20px;
+  margin-inline-start: 20px;
+  margin-inline-end: 20px;
+}
+
       result.removeAttribute('hidden');
     });
   });
