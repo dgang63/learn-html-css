@@ -1,0 +1,361 @@
+/* 텍스트 로고 */
+.text-logo {
+  --size: 34.7504px;
+---green
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  /* N 텍스트의 부모 요소의 크기를 글자크기의 70%로 설졍 (기본 자간 크기를 제거) */
+  inline-size: calc(var(--size) * 0.7);
+user-select: inherit; 
+bottom: unset;
+bottun
+"UI 컴포넌트 컨테이너": {
+  "prefix": "ui-component",
+  "body": [
+    "<div class=\"ui-component\">",
+    "  $1     ",
+    "  <button type=\"button\" class=\"copy-component\">복사</button>",
+    "</div>"
+  ],
+  "description": "UI 컴포넌트 컨테이너"
+}
+"UI 컴포넌트 컨테이너": {
+  "prefix": "ui-component",
+  "body": [
+    "<div class=\"ui-component\">",
+    "  $1     ",
+    "  <button type=\"button\" class=\"copy-component\">복사</button>",
+    "</div>"
+  ],
+  "description": "UI 컴포넌트 컨테이너"
+}
+
+  .text {
+    background: #ffc;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    inline-size: var(--size);
+    font-size: var(--size);
+    line-height: 0.70;
+    font-weight: 900;
+    position: relative;
+    top: -0.005em;
+    left: -0.005em;
+  }back ground hr
+}<div class="ui-component">
+  <button type="button" aria-label="버튼" class="circle-gradient"></button>
+  
+  <button type="button" class="copy-component">복사</button>
+</div>
+/* 텍스트 로고 */
+.text-logo {
+  --size: 34.7504px;
+  --start-color: var(--green-200);
+  --end-color: var(--green-300);
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  /* N 텍스트의 부모 요소의 크기를 글자크기의 70%로 설졍 (기본 자간 크기를 제거) */
+  inline-size: calc(var(--size) * 0.7);
+
+  .text {
+    background: #ffc;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    inline-size: var(--size);
+    font-size: var(--size);
+    line-height: 0.7;
+    font-weight: 900;
+    position: relative;
+    top: -0.005em;
+    left: -0.005em;
+    background: linear-gradient(to bottom, var(--start-color), var(--end-color));
+    color: transparent;
+    background-clip: text;
+  }
+}
+<div class="combo-box">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M8.28595 16C9.50947 15.8258 10.5821 14.5462 11.257 12.6565C10.2813 12.4376 9.28565 12.3201 8.28595 12.3061V16Z" fill="currentColor" />
+          <path
+            d="M10.2407 15.6995C10.313 15.6785 10.385 15.6573 10.4565 15.6341C10.5169 15.6147 10.5763 15.5937 10.6358 15.5728C10.7062 15.5485 10.7763 15.5235 10.8461 15.4969C10.9056 15.4742 10.9645 15.4501 11.0235 15.4261C11.0917 15.3974 11.1597 15.3689 11.227 15.3402C11.2858 15.3143 11.3441 15.2872 11.4025 15.2599C11.4685 15.2287 11.5343 15.1969 11.5995 15.1639C11.6567 15.1347 11.7138 15.1049 11.7711 15.0742C11.8352 15.0398 11.8988 15.0047 11.9621 14.9686C12.0193 14.9361 12.0745 14.9035 12.1302 14.87C12.1922 14.8318 12.2539 14.7936 12.3152 14.7554C12.3701 14.7204 12.4248 14.6849 12.4788 14.6482C12.5392 14.6075 12.5986 14.5651 12.6578 14.5227C12.711 14.4845 12.7639 14.4465 12.8159 14.4081C12.8731 14.3639 12.9318 14.3182 12.9892 14.2723C13.0401 14.2316 13.0909 14.1912 13.1411 14.1493C13.1982 14.1018 13.2529 14.0525 13.3083 14.0033C13.3569 13.96 13.4058 13.9172 13.4533 13.8729C13.5079 13.8218 13.5611 13.7689 13.6143 13.7165C13.6603 13.6709 13.707 13.6259 13.7521 13.5792C13.7604 13.5705 13.7684 13.5612 13.7771 13.5522C13.1534 13.2295 12.4964 12.9761 11.8177 12.7967C11.4648 13.9246 10.8366 14.9468 9.99019 15.7702C10.0134 15.7642 10.0365 15.7593 10.0597 15.7533C10.1209 15.7361 10.1809 15.7172 10.2407 15.6995Z"
+            fill="currentColor"
+            * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* 전체를 flex로 배치하고 버튼을 중간으로 가져옴 */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #00000066;
+}
+/* 그라데이션이 들어가는 중간 부분의 원형 */
+.menu .gradation {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 0px -3px 2px rgb(80, 80, 80);
+  z-index: 9;
+  transition: 0.5s;
+}
+/* 실제로 그라데이션 적용되는 원형 */
+.menu .gradation div {
+  width: 150px;
+  height: 150px;
+  background: radial-gradient(
+    circle at 50% 0,
+    rgba(0, 255, 170, 0.9) 20%,
+    rgba(0, 240, 199, 1) 35%,
+    rgba(0, 240, 200, 1) 50%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  border-radius: 50%;
+  animation: rotate 8s linear infinite;
+}
+/* 애니메이션을 적용하여 그라데이션을 움직임 */
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+/* 작은 원형 설정 */
+.menu .circle {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  z-index: 100;
+  top: 35px;
+  left: 35px;
+  border: 3px solid #fff;
+  border-top: 0;
+  box-shadow: 0 2px 5px #a6bab4;
+  background: #85ffda;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.5s;
+}
+/* 흰색 큰원을 설정 */
+.menu_background {
+  position: relative;
+  top: -155px;
+  left: -75px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 75px solid #fff;
+  /* 45도씩 움직여야 정렬됨 */
+  transform: rotate(0);
+  transition: all 0.5s;
+}
+/* 아이콘의 li를 설정 */
+.menu li {
+  position: absolute;
+  list-style: none;
+  top: 62px;
+  left: -55px;
+  transform-origin: 130px;
+  z-index: 8;
+}
+/* 8개의 아이콘들을 순서대로 일정한 간격으로 배치함 */
+.menu_background li {
+  transform: rotate(calc(360deg / 8 * var(--i)));
+}
+.menu_background li a {
+  display: flex;
+  font-size: 1.5em;
+  justify-content: center;
+  align-items: center;
+  color: rgba(0, 240, 200, 1);
+  transform: rotate(calc(360deg / -8 * var(--i)));
+  z-index: 15;
+}
+/* 흰원판이 돌아갈때 아이콘을 반대로 같은 각도로 움직여 기준을 이룸 */
+/* 45도씩 움직여야 정렬됨 */
+/* 흰색 원이 돌아갈때 transition으로 부드럽게 위치를 잡음 */
+.icon {
+  transform: rotate(0);
+  transition: all 0.5s;
+}
+/* 작은원이 클릭되었을때 작게 만든다.*/
+.circle.active {
+  transform: scale(0.2);
+  background-color: #fff;
+  animation: circle_scale 2s linear infinite;
+  animation-direction: alternate-reverse;
+}
+@keyframes circle_scale {
+  0% {
+    transform: scale(0.3);
+  }
+  50% {
+    transform: scale(0.4);
+  }
+  100% {
+    transform: scale(0.6);
+  }
+}
+/* active가 붙을때 작게 만든다. */
+.gradation.active {
+  transform: scale(0.55);
+  transition: 0.23s;
+}
+/* active가 붙을때 작게 만든다. */
+.menu_background.active {
+  transform: scale(0.32) !important;
+  transition: all 0.23s;
+}
+/* 아이콘 위에 마우스를 올리면 색상을 변경함. */
+.menu_background li a:hover .icon {
+  color: #ffa1ac;
+}
+:#red :only-of-type
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* 전체를 flex로 배치하고 버튼을 중간으로 가져옴 */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #00000066;
+}
+/* 그라데이션이 들어가는 중간 부분의 원형 */
+.menu .gradation {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 0px -3px 2px rgb(80, 80, 80);
+  z-index: 9;
+  transition: 0.5s;
+}
+/* 실제로 그라데이션 적용되는 원형 */
+.menu .gradation div {
+  width: 150px;
+  height: 150px;
+  background: radial-gradient(
+    circle at 50% 0,
+    rgba(0, 255, 170, 0.9) 20%,
+    rgba(0, 240, 199, 1) 35%,
+    rgba(0, 240, 200, 1) 50%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  border-radius: 50%;
+  animation: rotate 8s linear infinite;
+}
+/* 애니메이션을 적용하여 그라데이션을 움직임 */
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+/* 작은 원형 설정 */
+.menu .circle {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  z-index: 100;
+  top: 35px;
+  left: 35px;
+  border: 3px solid #fff;
+  border-top: 0;
+  box-shadow: 0 2px 5px #a6bab4;
+  background: #85ffda;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.5s;
+}
+/* 흰색 큰원을 설정 */
+.menu_background {
+  position: relative;
+  top: -155px;
+  left: -75px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 75px solid #fff;
+  /* 45도씩 움직여야 정렬됨 */
+  transform: rotate(0);
+  transition: all 0.5s;
+}
+/* 아이콘의 li를 설정 */
+.menu li {
+  position: absolute;
+  list-style: none;
+  top: 62px;
+  left: -55px;
+  transform-origin: 130px;
+  z-index: 8;
+}
+/* 8개의 아이콘들을 순서대로 일정한 간격으로 배치함 */
+.menu_background li {
+  transform: rotate(calc(360deg / 8 * var(--i)));
+}
+.menu_background li a {
+  display: flex;
+  font-size: 1.5em;
+  justify-content: center;
+  align-items: center;
+  color: rgba(0, 240, 200, 1);
+  transform: rotate(calc(360deg / -8 * var(--i)));
+  z-index: 15;
+}
+/* 흰원판이 돌아갈때 아이콘을 반대로 같은 각도로 움직여 기준을 이룸 */
+/* 45도씩 움직여야 정렬됨 */
+/* 흰색 원이 돌아갈때 transition으로 부드럽게 위치를 잡음 */
+.icon {
+  transform: rotate(0);
+  transition: all 0.5s;
+}
+/* 작은원이 클릭되었을때 작게 만든다.*/
+.circle.active {
+  transform: scale(0.2);
+  background-color: #fff;
+  animation: circle_scale 2s linear infinite;
+  animation-direction: alternate-reverse;
+}
+@keyframes circle_scale {
+  0% {
+    transform: scale(0.3);
+  }
+  50% {
+    transform: scale(0.4);
+  }
+  100% {
+    transform: scale(0.6);
+  }
+}
+/* active가 붙을때 작게 만든다. */
+.gradation.active {
+  transform: scale(0.55);
+  transition: 0.23s;
+}
+/* active가 붙을때 작게 만든다. */
+.menu_background.active {
+  transform: scale(0.32) !important;
+  transition: all 0.23s;
+}
+/* 아이콘 위에 마우스를 올리면 색상을 변경함. */
+.menu_background li a:hover .icon {
+  color: #ffa1ac;
+}
+
+mkdir src/ui/login
+touch src/ui/login/login.html
+touch src/ui/login/login.css 

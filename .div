@@ -14,3 +14,82 @@
   margin-inline-start: 20px;
   margin-inline-end: 20px;
 }
+/* 버튼 */
+.button {
+  --primary-color: var(--red-500);
+  --disable-color: var(--gray-500);
+  --text-color: var(--white);
+
+  font-size: 12px;
+  border: 0;
+  padding: 8px 12px;
+
+  @media (width >= 768px) {
+    font-size: 16px;
+  }
+
+  &:focus {
+    outline: 2px solid green;
+  }
+
+  &.button-fill {
+    background: var(--primary-color);
+    color: var(--text-color);
+    border: 1px solid var(--primary-color);
+
+    &:disabled {
+      background: var(--disable-color);
+      border-color: var(--disable-color);
+    }
+
+    &:not([disabled]):hover,
+    &:not([disabled]):active {
+      background-color: var(--red-600);
+    }
+  }
+
+  &.button-outline {
+    color: var(--primary-color);
+    background: transparent;
+    border: 1px solid currentColor;
+
+    &:disabled {
+      color: var(--disable-color);
+    }
+
+    &:not([disabled]):hover,
+    &:not([disabled]):active {
+      color: var(--red-600);
+    }
+  }
+
+  &.button-none {
+    background: none;
+
+    &:not([disabled]):hover,
+    &:not([disabled]):active {
+      color: var(--red-600);
+    }
+  }
+
+  &.rounded-xs {
+    border-radius: 4px;
+  }
+
+  &.rounded-md {
+    border-radius: 12px;
+  }
+
+  &.rounded-half {
+    border-radius: 24px;
+  }
+}
+[오후 3:33]
+<div class="ui-component">
+  <button class="button button-fill icon" type="button">버튼텍스트</button>
+  <button class="button button-fill rounded-xs" type="button">버튼텍스트</button>
+  <button class="button button-fill" type="button" disabled>버튼텍스트</button>
+  <button class="button button-outline" type="button">버튼텍스트</button>
+  <button class="button button-outline" type="button" disabled>버튼텍스트</button>
+  <button class="button button-none" type="button">버튼텍스트</button>
+</div>
